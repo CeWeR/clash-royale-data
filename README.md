@@ -9,9 +9,9 @@ Data is the `/data/info.json` file
 
 
 # Content
-[x] The basic data
-  [x] spells
-  [x] characters
-  [x] building
+- [x] The basic data
+  - [x] spells
+  - [x] characters
+  - [x] building
 
-[ ] Appear Arena Level 
+- [ ] Appear Arena Level 
