@@ -62,7 +62,8 @@ infos = {}
   'ice-wizard', 'golem', 'wizard', 'hog-rider', 'giant', 'giant-skeleton',
   'p-e-k-k-a', 'balloon', 'prince', 'minions', 'goblins', 'witch',
   'mini-p-e-k-k-a', 'musketeer', 'valkyrie', 'clash-royale-skeleton-army',
-  'spear-goblin'
+  'spear-goblin', 'lumberjack', 'bowler', 'ice-spirit', 'miner', 'lava-hound',
+  'guards', 'fire-spirits'
 ].each do |character_name|
   infos[character_name] = load_from_web 'characters', character_name
 end
@@ -75,7 +76,8 @@ end
 end
 
 [ 'mortar', 'elixir-collector', 'x-bow', 'cannon', 'barbarian-hut', 
-  'inferno-tower','bomb-tower', 'goblin-hut', 'tesla', 'tombstone'
+  'inferno-tower','bomb-tower', 'goblin-hut', 'tesla', 'tombstone', 'the-log', 
+  'sparky', 'furnace'
 ].each do |building_name|
   loaded_info = load_from_web 'building-cards', building_name
   infos[building_name] = loaded_info
